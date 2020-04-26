@@ -1,4 +1,4 @@
-import '../components/styles.css'
+import '../components/style.css'
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
