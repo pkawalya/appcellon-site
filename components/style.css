@@ -78,7 +78,8 @@
     padding: 0.5rem 1rem;
   }
   .button--primary {
-    background-color: #ce3d90;
+    /* background-color: #ce3d90; */
+    background-color:#ff7211;
   }
   .button--rounded {
     border-radius: 999px;

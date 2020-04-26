@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Home = () => (
   <div className="container">
@@ -13,15 +14,15 @@ const Home = () => (
       <div class="grid">
 
         <div class="site__logo">
-          <a href="/"><img src="/appcellon.png" alt="Appcellon" width="100" /></a>
+          <Link href="/"><a><img src="/appcellon.png" alt="Appcellon" width="100" /></a></Link>
         </div>
 
         <nav class="navigation navigation--inline navigation--main">
           <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#" class="button button--primary button--rounded">Request a quote</a></li>
+            <li><Link href="/services"><a>Services</a></Link></li>
+            <li><Link href="/solutions"><a>Solutions</a></Link></li>
+            <li><Link href="/blog"><a>Blog</a></Link></li>
+            <li><Link href="/about"><a class="button button--primary button--rounded">Request a quote</a></Link></li>
           </ul>
         </nav>
 
