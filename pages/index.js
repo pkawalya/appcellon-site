@@ -13,9 +13,7 @@ const Home = () => (
       <div class="grid">
 
         <div class="site__logo">
-
-          <a href="/"><img src="/appcellon.png" alt="Sites logo" /></a>
-
+          <a href="/"><img src="/appcellon.png" alt="Appcellon" width="100" /></a>
         </div>
 
         <nav class="navigation navigation--inline navigation--main">
