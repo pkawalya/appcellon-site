@@ -70,7 +70,7 @@
     position: relative;
   }
   .site__section--start {
-    background: url("../public/land.png") 50%/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)), url("../public/land.png") 50%/cover no-repeat;
   }
   
   .button {
