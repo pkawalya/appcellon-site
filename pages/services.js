@@ -1,11 +1,6 @@
-import React, { component } from "react";
-
-export default class Services extends  Component{
-    render(){
-        return(
-            <div>
-                
-            </div>
-        )
-    }
+function Services() {
+    return <div>Services</div>
 }
+  
+export default Services
+  
