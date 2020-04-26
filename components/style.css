@@ -160,9 +160,9 @@
 
   .dropping-texts {
     display: inline-block;
-    width: 200px;
+    width: 300px;
     text-align: left;
-    height: 36px;
+    height: 86px;
     /* vertical-align: -2px; */
     font-size: 3rem;
     font-weight: 300;
