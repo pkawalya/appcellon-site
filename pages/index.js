@@ -37,6 +37,7 @@ const Home = () => (
       <div class="grid">
 
         <h1>
+          <div>Experts in </div>
           <div class="dropping-texts">
             <div>Software Development</div>
             <div>DevOPs Engineering</div>
