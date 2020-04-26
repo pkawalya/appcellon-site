@@ -164,6 +164,9 @@
     text-align: left;
     height: 36px;
     vertical-align: -2px;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
   }
   
   .dropping-texts > div {

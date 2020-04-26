@@ -35,9 +35,9 @@ const Home = () => (
     <section class="site__section site__section--start align text--center">
 
       <div class="grid">
-
+        
         <h1> Elegance Defined </h1>
-        <div class="dropping-texts" style='font-size: 50px;'>
+        <div class="dropping-texts">
           <div>Software Development</div>
           <div>DevOPs Engineering</div>
           <div>ICT Solutions</div>
