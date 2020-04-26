@@ -5,151 +5,48 @@ const Home = () => (
     <Head>
       <title>Appcellon</title>
       <link rel="icon" href="/favicon.ico" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400"></link>
     </Head>
 
-    
-    
+    <header class="site__header">
 
-    <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+      <div class="grid">
 
-      main {
-        padding: 5rem 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+        <div class="site__logo">
 
-      footer {
-        width: 100%;
-        height: 100px;
-        border-top: 1px solid #eaeaea;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+          <a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="34" viewBox="9 310.9 412 220"><path fill="#fff" d="M29 430.9h-20v-20h20v20zm392-20h-20v20h20v-20zm-30.2-15h-20v50h20v-50zm-331.6 5h-20v40h20v-40zm30.1-10h-20v60h20v-60zm30.2-20h-20v100h20v-100zm30.1 20h-20v60h20v-60zm30.2-40h-20v140h20v-140zm30.1-40h-20v220h20v-220zm30.2 40h-20v140h20v-140zm30.1 30h-20v80h20v-80zm30.2 10h-20v60h20v-60zm30.1 10h-20v40h20v-40zm30.2-20h-20v80h20v-80z"/></svg></a>
 
-      footer img {
-        margin-left: 0.5rem;
-      }
+        </div>
 
-      footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+        <nav class="navigation navigation--inline navigation--main">
+          <ul>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#" class="button button--primary button--rounded">Test Now</a></li>
+          </ul>
+        </nav>
 
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
+      </div>
 
-      .title a {
-        color: #0070f3;
-        text-decoration: none;
-      }
+    </header>
 
-      .title a:hover,
-      .title a:focus,
-      .title a:active {
-        text-decoration: underline;
-      }
+  <main class="site__main">
 
-      .title {
-        margin: 0;
-        line-height: 1.15;
-        font-size: 4rem;
-      }
+    <section class="site__section site__section--start align text--center">
 
-      .title,
-      .description {
-        text-align: center;
-      }
+      <div class="grid">
 
-      .description {
-        line-height: 1.5;
-        font-size: 1.5rem;
-      }
+        <h1>It's Time for Music</h1>
 
-      code {
-        background: #fafafa;
-        border-radius: 5px;
-        padding: 0.75rem;
-        font-size: 1.1rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
+        <a href="#" class="button--scroll animation animation--infinite animation--up-down"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="-275 398.7 44.2 44.2"><path fill="#fff" d="M-275 420.8c0-12.2 9.9-22.1 22.1-22.1s22.1 9.9 22.1 22.1c0 12.2-9.9 22.1-22.1 22.1s-22.1-9.9-22.1-22.1zm42.7 0c0-11.4-9.2-20.6-20.6-20.6-11.4 0-20.6 9.2-20.6 20.6 0 11.4 9.2 20.6 20.6 20.6 11.4 0 20.6-9.3 20.6-20.6zM-260.6 418c0-.2.1-.4.2-.5.3-.3.8-.3 1.1 0l6.8 6.8 6.8-6.8c.3-.3.8-.3 1.1 0 .3.3.3.8 0 1.1l-7.3 7.3c-.3.3-.8.3-1.1 0l-7.3-7.3c-.3-.2-.3-.4-.3-.6z"/></svg></a>
 
-      .grid {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+      </div>
 
-        max-width: 800px;
-        margin-top: 3rem;
-      }
+    </section>
 
-      .card {
-        margin: 1rem;
-        flex-basis: 45%;
-        padding: 1.5rem;
-        text-align: left;
-        color: inherit;
-        text-decoration: none;
-        border: 1px solid #eaeaea;
-        border-radius: 10px;
-        transition: color 0.15s ease, border-color 0.15s ease;
-      }
+  </main>
 
-      .card:hover,
-      .card:focus,
-      .card:active {
-        color: #0070f3;
-        border-color: #0070f3;
-      }
-
-      .card h3 {
-        margin: 0 0 1rem 0;
-        font-size: 1.5rem;
-      }
-
-      .card p {
-        margin: 0;
-        font-size: 1.25rem;
-        line-height: 1.5;
-      }
-
-      @media (max-width: 600px) {
-        .grid {
-          width: 100%;
-          flex-direction: column;
-        }
-      }
-    `}</style>
-
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-    `}</style>
   </div>
 )
 
