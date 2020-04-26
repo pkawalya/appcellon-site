@@ -40,8 +40,8 @@ const Home = () => (
           <div class="dropping-texts">
             <div>Software Development</div>
             <div>DevOPs Engineering</div>
-            <div></div>
-            <div>Elegance defined</div>
+            <div>ICT Solutions</div>
+            <div>Automations</div>
           </div>
         </h1>
 
