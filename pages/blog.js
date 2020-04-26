@@ -4,7 +4,7 @@ function Blog({posts}) {
     return (
         <ul>
             {posts.map(post => (
-            <li style='color:#000;'>{post.title}</li>
+            <li>{post.title}</li>
             ))}
         </ul>
     )
