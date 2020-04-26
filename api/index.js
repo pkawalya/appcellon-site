@@ -1,6 +1,6 @@
 import React, { component } from "react";
 
-export default class Services extends  Component{
+export default class Api extends  Component{
     render(){
         return(
             <div>
