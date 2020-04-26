@@ -36,12 +36,12 @@ const Home = () => (
 
       <div class="grid">
 
-        <h1>Elegance defined 
+        <h1>
           <div class="dropping-texts">
-            <div>Developers</div>
-            <div>Designers</div>
-            <div>Coders</div>
-            <div>EVERYONE!</div>
+            <div>Software Development</div>
+            <div>DevOPs Engineering</div>
+            <div></div>
+            <div>Elegance defined</div>
           </div>
         </h1>
 
