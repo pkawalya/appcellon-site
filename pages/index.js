@@ -14,7 +14,7 @@ const Home = () => (
 
         <div class="site__logo">
 
-          <a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="34" viewBox="9 310.9 412 220"><path fill="#fff" d="M29 430.9h-20v-20h20v20zm392-20h-20v20h20v-20zm-30.2-15h-20v50h20v-50zm-331.6 5h-20v40h20v-40zm30.1-10h-20v60h20v-60zm30.2-20h-20v100h20v-100zm30.1 20h-20v60h20v-60zm30.2-40h-20v140h20v-140zm30.1-40h-20v220h20v-220zm30.2 40h-20v140h20v-140zm30.1 30h-20v80h20v-80zm30.2 10h-20v60h20v-60zm30.1 10h-20v40h20v-40zm30.2-20h-20v80h20v-80z"/></svg></a>
+          <a href="/"><img src="/appcellon.png" alt="Sites logo" /></a>
 
         </div>
 
