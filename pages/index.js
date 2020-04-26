@@ -14,7 +14,7 @@ const Home = () => (
       <div class="grid">
 
         <div class="site__logo">
-          <Link href="/"><a><img src="/appcellon.png" alt="Appcellon" width="100" /></a></Link>
+          <Link href="/"><a><img src="/appcellon.png" alt="Appcellon" width="100" /> APPCELLON</a></Link>
         </div>
 
         <nav class="navigation navigation--inline navigation--main">
@@ -36,7 +36,14 @@ const Home = () => (
 
       <div class="grid">
         
-        <h1>Engineering Elegance Defined </h1>
+        <h1>Engineering
+          <div class="dropping-texts">
+            <div>Software</div>
+            <div>DevOPs</div>
+            <div>ICT Solutions</div>
+            <div>Automations</div>
+          </div>
+        </h1>
         
         <div class="dropping-texts">
           <div>Software Development</div>
