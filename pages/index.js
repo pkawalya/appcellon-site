@@ -22,7 +22,7 @@ const Home = () => (
             <li><Link href="/services"><a>Services</a></Link></li>
             <li><Link href="/solutions"><a>Solutions</a></Link></li>
             <li><Link href="/blog"><a>Blog</a></Link></li>
-            <li><Link href="/about"><a class="button button--primary button--rounded">Request a quote</a></Link></li>
+            <li><Link href="/about"><a class="button button--primary button--rounded">Request for a quote</a></Link></li>
           </ul>
         </nav>
 
