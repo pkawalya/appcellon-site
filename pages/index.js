@@ -36,7 +36,7 @@ const Home = () => (
 
       <div class="grid">
 
-        <h1>Elegance defined Software
+        <h1>Elegance defined 
           <div class="dropping-texts">
             <div>Developers</div>
             <div>Designers</div>
